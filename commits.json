@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "e9ee8dcd9f53096a0096c01b5027d7584376cbd2",
+    "node_id": "C_kwDOAxkop9oAKGU5ZWU4ZGNkOWY1MzA5NmEwMDk2YzAxYjUwMjdkNzU4NDM3NmNiZDI",
+    "commit": {
+      "author": {
+        "name": "killian",
+        "email": "killiancharrier8@gmail.com",
+        "date": "2022-09-30T11:49:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-30T11:49:02Z"
+      },
+      "message": "Migrate from winapi to windows-sys",
+      "tree": {
+        "sha": "4163304f1e99f878bef7ff5a451f88c8c9571548",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/4163304f1e99f878bef7ff5a451f88c8c9571548"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/e9ee8dcd9f53096a0096c01b5027d7584376cbd2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNteuCRBK7hj4Ov3rIwAAxCcIABewVv2zRat6OG/Cjtcs/eKs\nkr2DqVJ8whLvizTWU8ZCOdvNICU2AoOQYYXgAvlYD9z94xYurW5UlBI2XW0mt92a\nqBypg7keuJPyYQRhrHXUVekd0APzdH51wgF8MHMk0maQ4ku8Yu9vWzfjRDW4ckho\nULrvjtXZRdz2YPBBcv/VtFRQyWjq1JWS3djPL6GV8xE7DzccxGHfVWgmst4Ghf29\nNffb0oPtzEmgIYvw+UysNVmFHyT6EXt1kJttA+UVN493f6qqUlkCY/g3Y5XNYSxT\nw4FO9Q2WOW53FQNE/nM8aTJtFeyUgll1G8Jj6w/5SFW621eOT6k9KEcPHTdne3Y=\n=1eDQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4163304f1e99f878bef7ff5a451f88c8c9571548\nparent c5ae05e810a5866a9133b2e88edba3a42706319f\nauthor killian <killiancharrier8@gmail.com> 1664538542 +0200\ncommitter GitHub <noreply@github.com> 1664538542 +0000\n\nMigrate from winapi to windows-sys\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/e9ee8dcd9f53096a0096c01b5027d7584376cbd2",
+    "html_url": "https://github.com/alacritty/alacritty/commit/e9ee8dcd9f53096a0096c01b5027d7584376cbd2",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/e9ee8dcd9f53096a0096c01b5027d7584376cbd2/comments",
+    "author": {
+      "login": "killianc3",
+      "id": 101042422,
+      "node_id": "U_kgDOBgXI9g",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101042422?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/killianc3",
+      "html_url": "https://github.com/killianc3",
+      "followers_url": "https://api.github.com/users/killianc3/followers",
+      "following_url": "https://api.github.com/users/killianc3/following{/other_user}",
+      "gists_url": "https://api.github.com/users/killianc3/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/killianc3/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/killianc3/subscriptions",
+      "organizations_url": "https://api.github.com/users/killianc3/orgs",
+      "repos_url": "https://api.github.com/users/killianc3/repos",
+      "events_url": "https://api.github.com/users/killianc3/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/killianc3/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c5ae05e810a5866a9133b2e88edba3a42706319f",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/c5ae05e810a5866a9133b2e88edba3a42706319f",
+        "html_url": "https://github.com/alacritty/alacritty/commit/c5ae05e810a5866a9133b2e88edba3a42706319f"
+      }
+    ]
+  },
+  {
+    "sha": "c5ae05e810a5866a9133b2e88edba3a42706319f",
+    "node_id": "C_kwDOAxkop9oAKGM1YWUwNWU4MTBhNTg2NmE5MTMzYjJlODhlZGJhM2E0MjcwNjMxOWY",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-09-17T13:32:10Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-17T13:32:10Z"
+      },
+      "message": "Fix IPC config overriding previous values\n\nBefore this patch whenever changing the IPC configuration, all previous\r\nconfiguration options would be discarded. This was the case even when\r\nthe new option was invalid.\r\n\r\nThis patch ensures that the IPC config is only ever cleared when the\r\n`--reset` flag is passed. Invalid IPC config options are logged and\r\ndiscarded.\r\n\r\nAdditionally whenever a new IPC config message is sent, all previous IPC\r\nerror messages are cleared.\r\n\r\nCloses #6330.",
+      "tree": {
+        "sha": "eff78be6f3888eb550b56dac5bc45774d55aa259",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/eff78be6f3888eb550b56dac5bc45774d55aa259"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/c5ae05e810a5866a9133b2e88edba3a42706319f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjJcxaCRBK7hj4Ov3rIwAAHW0IAHmf7m7eAxWvuN54kiA9YPdv\nTEEeWpqrTea39KVJnwgPQ2+LO+1QaKiQyoWEH/EbZXoq9uXTQB9WulJJHiid2o10\nTj5nMX1f/l9Hhc4fklRGmzLt7RcnKE3CTaHJ/xpZTiL27Jl3shd2ZQQwK4x1MCCV\n9aAYu4ajBAfkRzwjnD38OW8fjXtigVr1t08HTSzpYKx9F+ekEufRGzQx2L3LZzUI\nnFBtzUsZ/D6493xLMb/wIWcTJlBGGrnmdANJ0xL+7ubVFzKrb9hxAlblhZND5cQf\nxlRWqIWYMqibC7kPuiWDQAwk30cELRpg329j5GqWv5YK3DIdZHjyi/qiTavPcq4=\n=3RFK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree eff78be6f3888eb550b56dac5bc45774d55aa259\nparent 3a38f0b996bc0e340646008bcfd8ad7192774eeb\nauthor Christian Duerr <contact@christianduerr.com> 1663421530 +0000\ncommitter GitHub <noreply@github.com> 1663421530 +0000\n\nFix IPC config overriding previous values\n\nBefore this patch whenever changing the IPC configuration, all previous\r\nconfiguration options would be discarded. This was the case even when\r\nthe new option was invalid.\r\n\r\nThis patch ensures that the IPC config is only ever cleared when the\r\n`--reset` flag is passed. Invalid IPC config options are logged and\r\ndiscarded.\r\n\r\nAdditionally whenever a new IPC config message is sent, all previous IPC\r\nerror messages are cleared.\r\n\r\nCloses #6330."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/c5ae05e810a5866a9133b2e88edba3a42706319f",
+    "html_url": "https://github.com/alacritty/alacritty/commit/c5ae05e810a5866a9133b2e88edba3a42706319f",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/c5ae05e810a5866a9133b2e88edba3a42706319f/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+        "html_url": "https://github.com/alacritty/alacritty/commit/3a38f0b996bc0e340646008bcfd8ad7192774eeb"
+      }
+    ]
+  },
+  {
+    "sha": "3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+    "node_id": "C_kwDOAxkop9oAKDNhMzhmMGI5OTZiYzBlMzQwNjQ2MDA4YmNmZDhhZDcxOTI3NzRlZWI",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-09-17T13:10:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-17T13:10:38Z"
+      },
+      "message": "Update unicode-width to Unicode 15\n\nThis applies all not-breaking dependency changes, including an update to\r\nunicode-width. This brings support for Unicode 15 with its new widths\r\ntable so new glyphs and Emojis are shown correctly.",
+      "tree": {
+        "sha": "dc0436e753a1743a0fad5c126c57292d032980a2",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/dc0436e753a1743a0fad5c126c57292d032980a2"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjJcdOCRBK7hj4Ov3rIwAAq2gIAHzeuv+HBku5+3aFoxifQ3Gk\n+A7wMuqKUC14m+F1U5q0mbssPM9VR64DROe9aGlgcgKyU0HqdJq+N9N6fBy+C813\nmtgJDIILJ0ULSZOkXi23hrn0TPG9rj+uWElq7Sbk8q4kAdQ+wEGhggTrKW+lTE4j\n4v+jHa/jUL27hCGD7Dwt72N/jWBiu2JLU3MxVaTM5l0THvIT4LC2LGKEFmTayozS\nGHJUO76re1pM3Y+6cbQIqH1aA8oWwludNMfR72GhY6P10thWvch1+/tl7EGDLTJ7\nw2E2diUBDMpro7Rkq/gLV5mAXhEHYUAOUdWJ1Ytm3dRLieC0h3Jws22Ws+zw/Ls=\n=kyLQ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree dc0436e753a1743a0fad5c126c57292d032980a2\nparent 5bbba6973fd0217c55ebe27fadf844b2889586dd\nauthor Christian Duerr <contact@christianduerr.com> 1663420238 +0000\ncommitter GitHub <noreply@github.com> 1663420238 +0000\n\nUpdate unicode-width to Unicode 15\n\nThis applies all not-breaking dependency changes, including an update to\r\nunicode-width. This brings support for Unicode 15 with its new widths\r\ntable so new glyphs and Emojis are shown correctly."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+    "html_url": "https://github.com/alacritty/alacritty/commit/3a38f0b996bc0e340646008bcfd8ad7192774eeb",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/3a38f0b996bc0e340646008bcfd8ad7192774eeb/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5bbba6973fd0217c55ebe27fadf844b2889586dd",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/5bbba6973fd0217c55ebe27fadf844b2889586dd",
+        "html_url": "https://github.com/alacritty/alacritty/commit/5bbba6973fd0217c55ebe27fadf844b2889586dd"
+      }
+    ]
+  },
+  {
+    "sha": "5bbba6973fd0217c55ebe27fadf844b2889586dd",
+    "node_id": "C_kwDOAxkop9oAKDViYmJhNjk3M2ZkMDIxN2M1NWViZTI3ZmFkZjg0NGIyODg5NTg2ZGQ",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-09-15T20:51:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-15T20:51:06Z"
+      },
+      "message": "Bump winit to 0.27.3\n\nFixes #6324.\r\nFixes #6313.",
+      "tree": {
+        "sha": "b2dab8f54eaf341cf68a19f23068b3111cfce6c2",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/b2dab8f54eaf341cf68a19f23068b3111cfce6c2"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/5bbba6973fd0217c55ebe27fadf844b2889586dd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjI5A6CRBK7hj4Ov3rIwAAFLsIAIlfLXeDc5v7N1TClt6FpHYK\nUjZE8TEU3D4lPeRhUQnbwYwN7q2UI5KRTOkklozT/zM6iAPSxT+CmDgmBazGnoxG\naLzD4HOxP/I/dA3Q9+rvv71pCCQwZM+gfWZxYgdUPwTRI545/zhMQLrSFvTqL7Ev\nfTmWip9xIyB2bhdh6EfqLWNtezLjPOMnsZCT2WWWLXjzVFzMx1siYz8jUaJITLcc\nTj5Az0ujg0xn6mIbJQ7pe/ADB1HJyLwkdZS2/6HQNBsafxbzOXnQvBvlIrTDdoUC\njUGAkOfyPeT4v4Fb++sfSveoe4GInO4Kma0vxJ6Zl5hRQmaSYYrTz4xJIbM5hUo=\n=BIQL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b2dab8f54eaf341cf68a19f23068b3111cfce6c2\nparent bf3e8822938e680145d5e024abe1bf8becafa523\nauthor Kirill Chibisov <contact@kchibisov.com> 1663275066 +0300\ncommitter GitHub <noreply@github.com> 1663275066 +0300\n\nBump winit to 0.27.3\n\nFixes #6324.\r\nFixes #6313."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/5bbba6973fd0217c55ebe27fadf844b2889586dd",
+    "html_url": "https://github.com/alacritty/alacritty/commit/5bbba6973fd0217c55ebe27fadf844b2889586dd",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/5bbba6973fd0217c55ebe27fadf844b2889586dd/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bf3e8822938e680145d5e024abe1bf8becafa523",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/bf3e8822938e680145d5e024abe1bf8becafa523",
+        "html_url": "https://github.com/alacritty/alacritty/commit/bf3e8822938e680145d5e024abe1bf8becafa523"
+      }
+    ]
+  },
+  {
+    "sha": "bf3e8822938e680145d5e024abe1bf8becafa523",
+    "node_id": "C_kwDOAxkop9oAKGJmM2U4ODIyOTM4ZTY4MDE0NWQ1ZTAyNGFiZTFiZjhiZWNhZmE1MjM",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-09-14T02:33:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-14T02:33:15Z"
+      },
+      "message": "Avoid text cursor location for hyperlink preview\n\nFixes #6325.",
+      "tree": {
+        "sha": "c9aecaae756ed821da7df70de1cbeddc19e9cfaa",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/c9aecaae756ed821da7df70de1cbeddc19e9cfaa"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/bf3e8822938e680145d5e024abe1bf8becafa523",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjIT1rCRBK7hj4Ov3rIwAAKKQIAI0d3hzKjJyMhQQ9CSG7/x/s\n1P6x10NhoObdG+3pCWToA4hLT9DcQL/x5NOpBJHYYJLWmOhQvsd8H9fZgYNO3+W/\nhfpCQg3raiwnbqFmTZnh6Kk8p/1NqWlXsSfXEoD6tdp9C4nZG/CplboFkQ0ncp9a\nxV0iWd//RWaKS8jsrm0S4iHkZtZcSEdaRaBwS9j3mP/FpYq7ncgFchhVoS91VcM8\nZkS2fEVthTf7o3VBZCePRMtuEZCSu7igsLQd8+idBEg+TkqmpU2de31DSQR0UEVe\nVnAJ9jPEDO0lRUgiZb26XHCH32dqk80AKgzWdZx3yBbwlPFjse11FgFfKcq3ATc=\n=PPCF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c9aecaae756ed821da7df70de1cbeddc19e9cfaa\nparent f2e74d994749d89412d4b42f873d1904cf60f95b\nauthor Kirill Chibisov <contact@kchibisov.com> 1663122795 +0300\ncommitter GitHub <noreply@github.com> 1663122795 +0000\n\nAvoid text cursor location for hyperlink preview\n\nFixes #6325."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/bf3e8822938e680145d5e024abe1bf8becafa523",
+    "html_url": "https://github.com/alacritty/alacritty/commit/bf3e8822938e680145d5e024abe1bf8becafa523",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/bf3e8822938e680145d5e024abe1bf8becafa523/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f2e74d994749d89412d4b42f873d1904cf60f95b",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/f2e74d994749d89412d4b42f873d1904cf60f95b",
+        "html_url": "https://github.com/alacritty/alacritty/commit/f2e74d994749d89412d4b42f873d1904cf60f95b"
+      }
+    ]
+  },
+  {
+    "sha": "f2e74d994749d89412d4b42f873d1904cf60f95b",
+    "node_id": "C_kwDOAxkop9oAKGYyZTc0ZDk5NDc0OWQ4OTQxMmQ0YjQyZjg3M2QxOTA0Y2Y2MGY5NWI",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-09-12T12:03:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-12T12:03:27Z"
+      },
+      "message": "Update Cargo.lock for new `-dev` bump",
+      "tree": {
+        "sha": "dc0bbe743ac19706b1c5ef4944568af88fdb06a0",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/dc0bbe743ac19706b1c5ef4944568af88fdb06a0"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/f2e74d994749d89412d4b42f873d1904cf60f95b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjHyAPCRBK7hj4Ov3rIwAAnjgIAKpDCqG49PRZEkEiy3i6g2sb\n7gb9cBzM0Z40lPY+fiBJgFA6xV/8+x6zZqTOxss09xe5MNGmPv5JM7Cz6kg1aRyN\nbMHPQoGrGVa0ayBRDy5fJjH5Cthf5347Ss9CPlfIeMKkQeeclIEykUBDgZsyaP7M\nPvYOa/yC81cbechwu+UnJXwE9VDqzxkK51CTUnYc6s6jUetSOnMNq/kRwzzcAFSo\nZpZ+xvJax8q5l+BjHogUhCq6DqxVvauraeJPhA0QhImtKls0bmcUiU1qu1xt7+A3\n6gNK/CXHA3IK6aXTM4zTdrD2/NjN7963AeOA+gVm3bONlbXxQ9vmvkt0MMgV95g=\n=qjWj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree dc0bbe743ac19706b1c5ef4944568af88fdb06a0\nparent 1d86775229619d678b141897bfda4d2d80e73e10\nauthor Kirill Chibisov <contact@kchibisov.com> 1662984207 +0300\ncommitter GitHub <noreply@github.com> 1662984207 +0000\n\nUpdate Cargo.lock for new `-dev` bump\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/f2e74d994749d89412d4b42f873d1904cf60f95b",
+    "html_url": "https://github.com/alacritty/alacritty/commit/f2e74d994749d89412d4b42f873d1904cf60f95b",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/f2e74d994749d89412d4b42f873d1904cf60f95b/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1d86775229619d678b141897bfda4d2d80e73e10",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/1d86775229619d678b141897bfda4d2d80e73e10",
+        "html_url": "https://github.com/alacritty/alacritty/commit/1d86775229619d678b141897bfda4d2d80e73e10"
+      }
+    ]
+  },
+  {
+    "sha": "1d86775229619d678b141897bfda4d2d80e73e10",
+    "node_id": "C_kwDOAxkop9oAKDFkODY3NzUyMjk2MTlkNjc4YjE0MTg5N2JmZGE0ZDJkODBlNzNlMTA",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-09-10T21:23:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-10T21:23:32Z"
+      },
+      "message": "Don't enable multisampling\n\nIt never worked in the first place, because we were\r\nnever requesting it in glutin, and it provides no value\r\ngiven that textures are already antialiased.",
+      "tree": {
+        "sha": "40446b16e5e4b92adedb0e71eb08e7c1a5e91727",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/40446b16e5e4b92adedb0e71eb08e7c1a5e91727"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/1d86775229619d678b141897bfda4d2d80e73e10",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjHQBUCRBK7hj4Ov3rIwAAou0IAH74cH7rlmMc0NOgY7a/anhj\neinjbyWjFbNNRrPNYOtcwbN8yyhTO3IlmjyZo59S0kiJbinQtIt32MRClx9xR0Iq\njZLFbDd/39cbHIKzdJ2E/Wa25zL3yx9FxLH+qRKlEAlw/gGyrgSUzqWan/J0Lqxi\nuGfvYODLWAY4pUzxidzd3oMfCLERVxmuPOvw715LUVNWG6AU1HfPM6TMCg+3sMGY\nbKRIZt/um48/V3vNUfC263BXADuz/NeB51iAW35Ixt+RJ0dWvLgAm+4MSBEAY1io\nozC2RHg+J08LnXOS+5VXJ/JxkgpVGZ9ra2eiAsycuCjDu3y+je+RJbr6Fe4mQEE=\n=Kosv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 40446b16e5e4b92adedb0e71eb08e7c1a5e91727\nparent 89f4bdb770fad303a122172c60b5280e5061aeaf\nauthor Kirill Chibisov <contact@kchibisov.com> 1662845012 +0300\ncommitter GitHub <noreply@github.com> 1662845012 +0300\n\nDon't enable multisampling\n\nIt never worked in the first place, because we were\r\nnever requesting it in glutin, and it provides no value\r\ngiven that textures are already antialiased."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/1d86775229619d678b141897bfda4d2d80e73e10",
+    "html_url": "https://github.com/alacritty/alacritty/commit/1d86775229619d678b141897bfda4d2d80e73e10",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/1d86775229619d678b141897bfda4d2d80e73e10/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "89f4bdb770fad303a122172c60b5280e5061aeaf",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/89f4bdb770fad303a122172c60b5280e5061aeaf",
+        "html_url": "https://github.com/alacritty/alacritty/commit/89f4bdb770fad303a122172c60b5280e5061aeaf"
+      }
+    ]
+  },
+  {
+    "sha": "89f4bdb770fad303a122172c60b5280e5061aeaf",
+    "node_id": "C_kwDOAxkop9oAKDg5ZjRiZGI3NzBmYWQzMDNhMTIyMTcyYzYwYjUyODBlNTA2MWFlYWY",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-09-05T06:39:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-05T06:39:09Z"
+      },
+      "message": "Add licenses to `alacritty_config`",
+      "tree": {
+        "sha": "adba42266e93daab2465c715fb4ca271742d3c1c",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/adba42266e93daab2465c715fb4ca271742d3c1c"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/89f4bdb770fad303a122172c60b5280e5061aeaf",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjFZmNCRBK7hj4Ov3rIwAAgxoIAE/ExYGxBPCfGOTXHS9qxMKf\n8IxksJStBey4xfubQtff9FP//3/0AgAO6F7oAFIh0PlM7UuqLTJinMNkMx9ZLIi/\ne0odnjTWxK3Ic3ulNvISRhXZ8TN5Mxl14Ve8VXVxRdgVkXSMtjokUBTOy9HPlQtA\nW231ZFpwLqftEGpbRY5XI6KyHCg+xEyuTfovbNQaZ6nafJLQ8TTunWhGAK/CRfo3\n40k1X4c/vvpu2G/4IP5PNXSVhElHITAJghTp+223ghGskRIy3QM9Fa/DLpUBOJRC\n+nfxVyPwJzhvbp2Z/uzgC1wAQ0g9D2cfR8PpCEQg5PCt/XCfSUtAWLWPzBcuxDY=\n=6gHG\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree adba42266e93daab2465c715fb4ca271742d3c1c\nparent a51dbe25d67e84d6ed4261e640d3954fbdd9be45\nauthor Christian Duerr <contact@christianduerr.com> 1662359949 +0000\ncommitter GitHub <noreply@github.com> 1662359949 +0300\n\nAdd licenses to `alacritty_config`\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/89f4bdb770fad303a122172c60b5280e5061aeaf",
+    "html_url": "https://github.com/alacritty/alacritty/commit/89f4bdb770fad303a122172c60b5280e5061aeaf",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/89f4bdb770fad303a122172c60b5280e5061aeaf/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+        "html_url": "https://github.com/alacritty/alacritty/commit/a51dbe25d67e84d6ed4261e640d3954fbdd9be45"
+      }
+    ]
+  },
+  {
+    "sha": "a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+    "node_id": "C_kwDOAxkop9oAKGE1MWRiZTI1ZDY3ZTg0ZDZlZDQyNjFlNjQwZDM5NTRmYmRkOWJlNDU",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-09-03T19:43:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-03T19:43:05Z"
+      },
+      "message": "Bump development version to 0.12.0-dev\n\nThis is only an update to the development version and does not represent\r\na stable release.",
+      "tree": {
+        "sha": "180caa2de474ba2a1f19ef2efbfc48649f4ebe10",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/180caa2de474ba2a1f19ef2efbfc48649f4ebe10"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjE65KCRBK7hj4Ov3rIwAAvcgIAJVxQOHGaExXtn0XXaEDIw+e\nPH0BSf9xqRRQxz1YWteR/z/mAYkxZHClYb+n5olfI9rPwsuV2SXwCrpHNiyPJhiU\nb90mDJB6RMnY55M+CuvMsN5BOh7B9VCdk112g9fhm83XreiELZVCeoRRLUe+CWSk\nMSdT+rpzveGc3Avu3/AxEmYC/voNBL0wLEf1QMT/wPhYWECAYr4l2XC+W1CW5fAk\nBC6JyD6b2V2JBvT50Q3aCNJeItc1XNw8ONmvDobq2HaVpmcLXU5TxS9R34dw3TKl\nrAPo5AjbhCxR1pOZLq+2QszdCom2YbBRZxPQ3XKY30iSDYnKvisiKEIaXlb5Hqs=\n=LWOR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 180caa2de474ba2a1f19ef2efbfc48649f4ebe10\nparent 4ddb608563d985060d69594d1004550a680ae3bd\nauthor Christian Duerr <contact@christianduerr.com> 1662234185 +0000\ncommitter GitHub <noreply@github.com> 1662234185 +0000\n\nBump development version to 0.12.0-dev\n\nThis is only an update to the development version and does not represent\r\na stable release."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+    "html_url": "https://github.com/alacritty/alacritty/commit/a51dbe25d67e84d6ed4261e640d3954fbdd9be45",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/a51dbe25d67e84d6ed4261e640d3954fbdd9be45/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4ddb608563d985060d69594d1004550a680ae3bd",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/4ddb608563d985060d69594d1004550a680ae3bd",
+        "html_url": "https://github.com/alacritty/alacritty/commit/4ddb608563d985060d69594d1004550a680ae3bd"
+      }
+    ]
+  },
+  {
+    "sha": "4ddb608563d985060d69594d1004550a680ae3bd",
+    "node_id": "C_kwDOAxkop9oAKDRkZGI2MDg1NjNkOTg1MDYwZDY5NTk0ZDEwMDQ1NTBhNjgwYWUzYmQ",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-08-31T22:48:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-31T22:48:38Z"
+      },
+      "message": "Add IPC config subcommand\n\nThis patch adds a new mechanism for changing configuration options\r\nwithout editing the configuration file, by sending options to running\r\ninstances through `alacritty msg`.\r\n\r\nEach window will load Alacritty's configuration file by default and then\r\naccept IPC messages for config updates using the `alacritty msg config`\r\nsubcommand. By default all windows will be updated, individual windows\r\ncan be addressed using `alacritty msg config --window-id\r\n\"$ALACRITTY_WINDOW_ID\"`.\r\n\r\nEach option will replace the config's current value and cannot be reset\r\nuntil Alacritty is restarted or the option is overwritten with a new\r\nvalue.\r\n\r\nConfiguration options are passed in the format `field.subfield=value`,\r\nwhere `value` is interpreted as yaml.\r\n\r\nCloses #472.",
+      "tree": {
+        "sha": "0b02a330b3e59300cff80a147f3c1bdab7f9ea57",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/0b02a330b3e59300cff80a147f3c1bdab7f9ea57"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/4ddb608563d985060d69594d1004550a680ae3bd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjD+VGCRBK7hj4Ov3rIwAARswIAImX7cXFkwFfA9LG9KkJMz9g\nK52AVSqmcGYnrib8okhb1loDcCvaqtjjcF+PcWXoKNp6BCAdM1j/BXXRniCSJc10\nf695Tt7lMykjv8Oxx+UM6+SjZXxrGTvYzp/cneof1t7YCNZ0YiwAtMrucIr34OpG\n7AmhIiEMnTOeKYpZt1bMpGOvXfu1ifqHh1aHZ3RpIN2XjKNqUmuC2JBR1wl1jWhr\nynGR74hfrXZSNXvIAOh8YX/bQJZeXhhTSnvZfNtU5vgoa+wTB66YzDAoBYHRH9Gf\n8pCVu3IJegUQHlOrupVmdbJFI2vJggEcSe1k302UwSlRhTq7KTUQ5zpPjLvDRGc=\n=eYPu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0b02a330b3e59300cff80a147f3c1bdab7f9ea57\nparent 18f9c2793924aec91c80a69ccb45f529adaffae5\nauthor Christian Duerr <contact@christianduerr.com> 1661986118 +0000\ncommitter GitHub <noreply@github.com> 1661986118 +0300\n\nAdd IPC config subcommand\n\nThis patch adds a new mechanism for changing configuration options\r\nwithout editing the configuration file, by sending options to running\r\ninstances through `alacritty msg`.\r\n\r\nEach window will load Alacritty's configuration file by default and then\r\naccept IPC messages for config updates using the `alacritty msg config`\r\nsubcommand. By default all windows will be updated, individual windows\r\ncan be addressed using `alacritty msg config --window-id\r\n\"$ALACRITTY_WINDOW_ID\"`.\r\n\r\nEach option will replace the config's current value and cannot be reset\r\nuntil Alacritty is restarted or the option is overwritten with a new\r\nvalue.\r\n\r\nConfiguration options are passed in the format `field.subfield=value`,\r\nwhere `value` is interpreted as yaml.\r\n\r\nCloses #472."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/4ddb608563d985060d69594d1004550a680ae3bd",
+    "html_url": "https://github.com/alacritty/alacritty/commit/4ddb608563d985060d69594d1004550a680ae3bd",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/4ddb608563d985060d69594d1004550a680ae3bd/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "18f9c2793924aec91c80a69ccb45f529adaffae5",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/18f9c2793924aec91c80a69ccb45f529adaffae5",
+        "html_url": "https://github.com/alacritty/alacritty/commit/18f9c2793924aec91c80a69ccb45f529adaffae5"
+      }
+    ]
+  },
+  {
+    "sha": "18f9c2793924aec91c80a69ccb45f529adaffae5",
+    "node_id": "C_kwDOAxkop9oAKDE4ZjljMjc5MzkyNGFlYzkxYzgwYTY5Y2NiNDVmNTI5YWRhZmZhZTU",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-08-29T13:29:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-29T13:29:13Z"
+      },
+      "message": "Add inline input method support\n\nThis commit adds support for inline IME handling. It also makes the\r\nsearch bar use underline cursor instead of using '_' character.\r\n\r\nFixes #1613.",
+      "tree": {
+        "sha": "63cda75c8203c39a7437bd1812653f74494f878f",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/63cda75c8203c39a7437bd1812653f74494f878f"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/18f9c2793924aec91c80a69ccb45f529adaffae5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjDL8pCRBK7hj4Ov3rIwAAuwAIAB73pXpIgv9VAxf7zUjF74o4\nfyra0c88ENfR/fkBRg9tpQFwOLjm8D4oayzIvgGHkjCMSuGfTDjExopYM3dY6yM+\nzC70KZlkz2m/bKrCVH5G4n7y5L47VoSpb9cRiTxzfotjyvNSx7IV+QPo8oth151f\ndjHwALWh5sO6zAoxNBgqLWPdxqkBzQdHvH82V0KwC/hFtImxvhIiFDcMQ+7uPUZE\nfexDb3WYksmxsfS+F8HTR80fk3gdkFyNIzAOH7x9tmoMEdDuatj/8YMkmqyQT3mg\ncj6MYuuD14E23foSUKyAR/a2KobupPMEsXlnJI0UBawpUj/3+MnKqLToqSqIGME=\n=oCYK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 63cda75c8203c39a7437bd1812653f74494f878f\nparent 791f79a02a4bbb509c257af2849e411d32f4c18b\nauthor Kirill Chibisov <contact@kchibisov.com> 1661779753 +0300\ncommitter GitHub <noreply@github.com> 1661779753 +0300\n\nAdd inline input method support\n\nThis commit adds support for inline IME handling. It also makes the\r\nsearch bar use underline cursor instead of using '_' character.\r\n\r\nFixes #1613."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/18f9c2793924aec91c80a69ccb45f529adaffae5",
+    "html_url": "https://github.com/alacritty/alacritty/commit/18f9c2793924aec91c80a69ccb45f529adaffae5",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/18f9c2793924aec91c80a69ccb45f529adaffae5/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "791f79a02a4bbb509c257af2849e411d32f4c18b",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/791f79a02a4bbb509c257af2849e411d32f4c18b",
+        "html_url": "https://github.com/alacritty/alacritty/commit/791f79a02a4bbb509c257af2849e411d32f4c18b"
+      }
+    ]
+  },
+  {
+    "sha": "791f79a02a4bbb509c257af2849e411d32f4c18b",
+    "node_id": "C_kwDOAxkop9oAKDc5MWY3OWEwMmE0YmJiNTA5YzI1N2FmMjg0OWU0MTFkMzJmNGMxOGI",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-08-25T05:51:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-25T05:51:19Z"
+      },
+      "message": "Rework `--class` CLI option\n\nThis commit swaps the order of `general` and `instance` arguments\r\nand also sets `instance` to `general` when only one argument was\r\nprovided. This should make this option behave like in other terminals\r\non X11, since they set either both or general by default, but\r\nnot instance like Alacritty.\r\n\r\nFixes #6279.",
+      "tree": {
+        "sha": "509fe9e6e956dc458234348d4e2eb836a77c1774",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/509fe9e6e956dc458234348d4e2eb836a77c1774"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/791f79a02a4bbb509c257af2849e411d32f4c18b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBw3XCRBK7hj4Ov3rIwAAaccIAHOVuSwYkTjYtts4Ik+h3yyH\nRYIW1/5c7hJHi3QPgmNZnkLiqvuIBJuTwB5ezY1k+AhVNHs0l4O05rZlw2gmI06N\nFYXPA62qFw/CDi0KJ3rJur8aKVw6GrXAiR3MklC1BQhDrJ+AGRBgfAc+s+aZxajI\nqXW6r8Tw34K/v1Z8Ez5zU8ewddaEd/aE7oPLTO59uCx2GrP7XMB+DLH8sK6s88N4\n8+u6eumWh+2XSlFLD+4Q3o/Frx62g18SvcTKJ7T6zwd3kgWWFJ5v+uBtNcYIpX1K\nR7dh1x0b8pF3tlVOn09cAcJKqCW30QmYHvTp377PGZz6a47VbyJQV+96q8lKU5Y=\n=+oZ2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 509fe9e6e956dc458234348d4e2eb836a77c1774\nparent 8f88b4d4bed337d16e8d3d15d8e20cbe782696db\nauthor Kirill Chibisov <contact@kchibisov.com> 1661406679 +0300\ncommitter GitHub <noreply@github.com> 1661406679 +0000\n\nRework `--class` CLI option\n\nThis commit swaps the order of `general` and `instance` arguments\r\nand also sets `instance` to `general` when only one argument was\r\nprovided. This should make this option behave like in other terminals\r\non X11, since they set either both or general by default, but\r\nnot instance like Alacritty.\r\n\r\nFixes #6279."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/791f79a02a4bbb509c257af2849e411d32f4c18b",
+    "html_url": "https://github.com/alacritty/alacritty/commit/791f79a02a4bbb509c257af2849e411d32f4c18b",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/791f79a02a4bbb509c257af2849e411d32f4c18b/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+        "html_url": "https://github.com/alacritty/alacritty/commit/8f88b4d4bed337d16e8d3d15d8e20cbe782696db"
+      }
+    ]
+  },
+  {
+    "sha": "8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+    "node_id": "C_kwDOAxkop9oAKDhmODhiNGQ0YmVkMzM3ZDE2ZThkM2QxNWQ4ZTIwY2JlNzgyNjk2ZGI",
+    "commit": {
+      "author": {
+        "name": "Christian Duerr",
+        "email": "contact@christianduerr.com",
+        "date": "2022-08-24T09:19:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-24T09:19:30Z"
+      },
+      "message": "Include extra directory in crate\n\nInstead of having the extra symlink in the root, this puts the symlink\r\nin the alacritty crate. Since we build the package on Linux this is not\r\na problem and even allows us to get rid of the `alacritty.png` symlink.\r\n\r\nTo avoid having complicated symlinks with regards to the windows build\r\nassets directory, it has just been removed from the `extra` directory\r\ncompletely. Since we only need it for building, it doesn't matter where\r\nit's located and users will never have to interact with it manually\r\nanyway.\r\n\r\nCloses #6242.",
+      "tree": {
+        "sha": "c6017d092faff8631e821059604620f98c6bcf54",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/c6017d092faff8631e821059604620f98c6bcf54"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjBe0iCRBK7hj4Ov3rIwAANGwIALB4T1ecyVSdxa3KnhozWbhs\nDzqwqCJ4vndd0HfNyDzh0PbPf3WZR59TAssocDxmw/J6un6Z6RvQVhGaPpIvQlYu\n0blgD+qOafSA51M/dHMvctzAjxohLKpXSflOujYH9dj3JD+UOes2GVmP4SzVrhL0\nppcBBng6puxhQC72qj4OZx++zTSYLWfNC7Z11mHO8TqV8C4LEYOpR/PVX7qbZgdr\nchOYRkcoE7RnpuGg0YPWL7pCOIgUy7eSCmBaCSAmWy/xsl16m0r7A1K3DlvWdnEx\nDur26HmlTZNw0GbYccBHvbfUOHvVDY2pDUFFp7YkY+rAjWDKgEuXPBmaD9/9e5Q=\n=bvCX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c6017d092faff8631e821059604620f98c6bcf54\nparent 23915cfc5343859329731c50114f701997c29b1f\nauthor Christian Duerr <contact@christianduerr.com> 1661332770 +0000\ncommitter GitHub <noreply@github.com> 1661332770 +0000\n\nInclude extra directory in crate\n\nInstead of having the extra symlink in the root, this puts the symlink\r\nin the alacritty crate. Since we build the package on Linux this is not\r\na problem and even allows us to get rid of the `alacritty.png` symlink.\r\n\r\nTo avoid having complicated symlinks with regards to the windows build\r\nassets directory, it has just been removed from the `extra` directory\r\ncompletely. Since we only need it for building, it doesn't matter where\r\nit's located and users will never have to interact with it manually\r\nanyway.\r\n\r\nCloses #6242."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+    "html_url": "https://github.com/alacritty/alacritty/commit/8f88b4d4bed337d16e8d3d15d8e20cbe782696db",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/8f88b4d4bed337d16e8d3d15d8e20cbe782696db/comments",
+    "author": {
+      "login": "chrisduerr",
+      "id": 8886672,
+      "node_id": "MDQ6VXNlcjg4ODY2NzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8886672?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisduerr",
+      "html_url": "https://github.com/chrisduerr",
+      "followers_url": "https://api.github.com/users/chrisduerr/followers",
+      "following_url": "https://api.github.com/users/chrisduerr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisduerr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisduerr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisduerr/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisduerr/orgs",
+      "repos_url": "https://api.github.com/users/chrisduerr/repos",
+      "events_url": "https://api.github.com/users/chrisduerr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisduerr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "23915cfc5343859329731c50114f701997c29b1f",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/23915cfc5343859329731c50114f701997c29b1f",
+        "html_url": "https://github.com/alacritty/alacritty/commit/23915cfc5343859329731c50114f701997c29b1f"
+      }
+    ]
+  },
+  {
+    "sha": "23915cfc5343859329731c50114f701997c29b1f",
+    "node_id": "C_kwDOAxkop9oAKDIzOTE1Y2ZjNTM0Mzg1OTMyOTczMWM1MDExNGY3MDE5OTdjMjliMWY",
+    "commit": {
+      "author": {
+        "name": "Ulrik de Muelenaere",
+        "email": "ulrikdem@gmail.com",
+        "date": "2022-08-20T16:43:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-20T16:43:02Z"
+      },
+      "message": "Fix general and instance class set on window (#6276)\n\nThis fixes a regression introduced in 7d708d5, which caused the general\r\nand instance class to be swapped.",
+      "tree": {
+        "sha": "cf44a521b054b44005108afca8c19ac01138931e",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/cf44a521b054b44005108afca8c19ac01138931e"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/23915cfc5343859329731c50114f701997c29b1f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjAQ8WCRBK7hj4Ov3rIwAAuNMIADEONyQX2uXgDNUOh+WMk3Zs\nZBHB12vWghsjGGixr10KkLODXhvMu4ddsiC/eeivoXgVr2c/mQjVAy5bKIPCcC+w\n4al5+xCyr4o753cdnErArNLgBhq7kPqyyiFddTrzYUwpRyvIaNlUyEY8Fr1YG5T7\nSIq7SGBr2GL+Wp3C3I0p9CFgY9xlwzNMQjjz0uN0MJAP6sf6lACLIwK308RkKquP\nd/wB80x2C+He1wWThpomd7crwYQrCorMprmbFgfDcs3K5F4lqYV6uJqg6xm9uji8\nHyXrfVrcgwWgoS2gWDCgAfh8761WjEJQ8ff0NAh7QJxXUvZ1e80SY4kQd2KUMMI=\n=7ly4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cf44a521b054b44005108afca8c19ac01138931e\nparent 5549e9eb0479994fe7004edb54fece657157d81c\nauthor Ulrik de Muelenaere <ulrikdem@gmail.com> 1661013782 -0400\ncommitter GitHub <noreply@github.com> 1661013782 +0000\n\nFix general and instance class set on window (#6276)\n\nThis fixes a regression introduced in 7d708d5, which caused the general\r\nand instance class to be swapped."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/23915cfc5343859329731c50114f701997c29b1f",
+    "html_url": "https://github.com/alacritty/alacritty/commit/23915cfc5343859329731c50114f701997c29b1f",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/23915cfc5343859329731c50114f701997c29b1f/comments",
+    "author": {
+      "login": "ulrikdem",
+      "id": 4600641,
+      "node_id": "MDQ6VXNlcjQ2MDA2NDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4600641?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ulrikdem",
+      "html_url": "https://github.com/ulrikdem",
+      "followers_url": "https://api.github.com/users/ulrikdem/followers",
+      "following_url": "https://api.github.com/users/ulrikdem/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ulrikdem/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ulrikdem/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ulrikdem/subscriptions",
+      "organizations_url": "https://api.github.com/users/ulrikdem/orgs",
+      "repos_url": "https://api.github.com/users/ulrikdem/repos",
+      "events_url": "https://api.github.com/users/ulrikdem/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ulrikdem/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5549e9eb0479994fe7004edb54fece657157d81c",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/5549e9eb0479994fe7004edb54fece657157d81c",
+        "html_url": "https://github.com/alacritty/alacritty/commit/5549e9eb0479994fe7004edb54fece657157d81c"
+      }
+    ]
+  },
+  {
+    "sha": "5549e9eb0479994fe7004edb54fece657157d81c",
+    "node_id": "C_kwDOAxkop9oAKDU1NDllOWViMDQ3OTk5NGZlNzAwNGVkYjU0ZmVjZTY1NzE1N2Q4MWM",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-08-13T06:06:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-13T06:06:54Z"
+      },
+      "message": "Bump winit to 0.27.2",
+      "tree": {
+        "sha": "8fc961b6b05eed6404222d3d3dd2989de7903907",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/8fc961b6b05eed6404222d3d3dd2989de7903907"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/5549e9eb0479994fe7004edb54fece657157d81c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi9z9+CRBK7hj4Ov3rIwAAI5MIAJteKI1QIU/PuKQ4cxXegODv\nPVoDmpC4NtNeKm1jPC8VHQdmh5ALVV2FV9x3VL3LJzqLntecVQRU6V9O/HmDz48j\nW8tXX/HWxoi1oDrDGtdT8UEkPEP+bKnhQNJFn4XISgHG4nB1O//lVI5R282mE2dD\nyQHGOuqaYlUxZq6WjIORE4Tb/9coYK1rr+bd9LHWBUNqngpGfrLgI7ndqqAtsaM4\n5bP+QngbV9OmIuewCb6DarWVNJeLElsXwpDgxgxLrRG5QErdMzFZneEY8HE7wRnU\nAMSc5Sw7CbVATFuzZWbgJ10BPjjzZKjMgYZIF8Zx++6tkWkRKI/+FQd8s8qL9so=\n=jdsm\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8fc961b6b05eed6404222d3d3dd2989de7903907\nparent 376300385b5a9377470567094ca28ed831769c30\nauthor Kirill Chibisov <contact@kchibisov.com> 1660370814 +0400\ncommitter GitHub <noreply@github.com> 1660370814 +0400\n\nBump winit to 0.27.2\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/5549e9eb0479994fe7004edb54fece657157d81c",
+    "html_url": "https://github.com/alacritty/alacritty/commit/5549e9eb0479994fe7004edb54fece657157d81c",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/5549e9eb0479994fe7004edb54fece657157d81c/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "376300385b5a9377470567094ca28ed831769c30",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/376300385b5a9377470567094ca28ed831769c30",
+        "html_url": "https://github.com/alacritty/alacritty/commit/376300385b5a9377470567094ca28ed831769c30"
+      }
+    ]
+  },
+  {
+    "sha": "376300385b5a9377470567094ca28ed831769c30",
+    "node_id": "C_kwDOAxkop9oAKDM3NjMwMDM4NWI1YTkzNzc0NzA1NjcwOTRjYTI4ZWQ4MzE3NjljMzA",
+    "commit": {
+      "author": {
+        "name": "trimental",
+        "email": "timmins.s.lucas@gmail.com",
+        "date": "2022-08-11T09:06:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-11T09:06:19Z"
+      },
+      "message": "Use `WindowEvent::Occluded` to hint rendering\n\nThis should prevent rendering on macOS and X11 to invisible\r\nwindows.",
+      "tree": {
+        "sha": "c363308639b0b44127231867d1b329c031930651",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/c363308639b0b44127231867d1b329c031930651"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/376300385b5a9377470567094ca28ed831769c30",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi9MaMCRBK7hj4Ov3rIwAAK1oIAF3v1BWVKX+2elkpQGU/6SC3\n8+JrQ0hrN3vMvc0mnZwLNJUpXaBdZDWq0E+/9V1mly3HvXYFP4VPrrSgh51gcrPG\ngueT62BKsOxIx8TLFYzQ9hKyYwJv3LidCNuTXrDG4h26bqUMEP72mnuKkxvv1imY\ntswgfjTog5ZFSY0PCcUCodvh2kjAJMwIg2Sck+ncLT9rxCyDxctmgO5bRhBV7gSW\nB7B+16EMMIngkw1V+w+RsktbDWoLfQPDbkJEJfgXa5eR69RK9rAqIr92bY1eUL3i\nrJXwWu12vaIg75gPBeOtdN/HOtLz+4VfVkToOqAURw4MEytVnXu9q3ofY60Jv8M=\n=fpBC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c363308639b0b44127231867d1b329c031930651\nparent 7d708d53f7ecb4c64db10ae44e7f4fca47c29a85\nauthor trimental <timmins.s.lucas@gmail.com> 1660208779 +0800\ncommitter GitHub <noreply@github.com> 1660208779 +0400\n\nUse `WindowEvent::Occluded` to hint rendering\n\nThis should prevent rendering on macOS and X11 to invisible\r\nwindows."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/376300385b5a9377470567094ca28ed831769c30",
+    "html_url": "https://github.com/alacritty/alacritty/commit/376300385b5a9377470567094ca28ed831769c30",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/376300385b5a9377470567094ca28ed831769c30/comments",
+    "author": {
+      "login": "trimental",
+      "id": 40879396,
+      "node_id": "MDQ6VXNlcjQwODc5Mzk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40879396?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/trimental",
+      "html_url": "https://github.com/trimental",
+      "followers_url": "https://api.github.com/users/trimental/followers",
+      "following_url": "https://api.github.com/users/trimental/following{/other_user}",
+      "gists_url": "https://api.github.com/users/trimental/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/trimental/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/trimental/subscriptions",
+      "organizations_url": "https://api.github.com/users/trimental/orgs",
+      "repos_url": "https://api.github.com/users/trimental/repos",
+      "events_url": "https://api.github.com/users/trimental/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/trimental/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+        "html_url": "https://github.com/alacritty/alacritty/commit/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85"
+      }
+    ]
+  },
+  {
+    "sha": "7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+    "node_id": "C_kwDOAxkop9oAKDdkNzA4ZDUzZjdlY2I0YzY0ZGIxMGFlNDRlN2Y0ZmNhNDdjMjlhODU",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-08-10T12:48:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-10T12:48:46Z"
+      },
+      "message": "Bump glutin to 0.29.1\n\nFixes #6239.\r\nFixes #5975.\r\nFixes #5876.\r\nFixes #5767.\r\nFixes #4484.\r\nFixes #3139.",
+      "tree": {
+        "sha": "ce76633d705da9b90e7e0d78afa24cef183ee286",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/ce76633d705da9b90e7e0d78afa24cef183ee286"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi86kuCRBK7hj4Ov3rIwAAAMkIADOG1R17ie5HaJqhD6Y6QsT9\n0I9L7zXmPSqOcIo2yENnGdA8Rx7cC4FGoJWIfyQfKt1vvkiZCYNvYR6xXfvfgzDV\nIBWCMHgOwMa09rJ9UZWD6X1akEEjPGeXWb+g6Sx3/l6zoO/wyxslauvTXNnklest\n1mBucs1mXIsCoSKePnB8Xv4J3RKTlOYTUO4Gxbwcg4ZuxLbm/LuEcF05U4rVh7/3\n/VBoJ7eRSkXdoyxBMwWIXaoBgyBNeCQe6pLW2vfrD3U7V9uPhUNklpmOvqszYGYz\nzZ9rSwPgKt9psSbXi8ykNzcPJabPNpmTjRPWkO/owiqy1W2e/HIJup5swR+q0n4=\n=0AHy\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ce76633d705da9b90e7e0d78afa24cef183ee286\nparent 76c5d01ee2b2178e71df578a109108655a97c24a\nauthor Kirill Chibisov <contact@kchibisov.com> 1660135726 +0400\ncommitter GitHub <noreply@github.com> 1660135726 +0400\n\nBump glutin to 0.29.1\n\nFixes #6239.\r\nFixes #5975.\r\nFixes #5876.\r\nFixes #5767.\r\nFixes #4484.\r\nFixes #3139."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+    "html_url": "https://github.com/alacritty/alacritty/commit/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/7d708d53f7ecb4c64db10ae44e7f4fca47c29a85/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76c5d01ee2b2178e71df578a109108655a97c24a",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/76c5d01ee2b2178e71df578a109108655a97c24a",
+        "html_url": "https://github.com/alacritty/alacritty/commit/76c5d01ee2b2178e71df578a109108655a97c24a"
+      }
+    ]
+  },
+  {
+    "sha": "76c5d01ee2b2178e71df578a109108655a97c24a",
+    "node_id": "C_kwDOAxkop9oAKDc2YzVkMDFlZTJiMjE3OGU3MWRmNTc4YTEwOTEwODY1NWE5N2MyNGE",
+    "commit": {
+      "author": {
+        "name": "Sabu Siyad",
+        "email": "hello@ssiyad.com",
+        "date": "2022-08-02T20:43:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-02T20:43:37Z"
+      },
+      "message": "Warn if only columns XOR lines is set\n\nCo-authored-by: Christian Duerr <contact@christianduerr.com>",
+      "tree": {
+        "sha": "186412c5a5f1f8bb24c286b8b4c202c1ce05a4eb",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/186412c5a5f1f8bb24c286b8b4c202c1ce05a4eb"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/76c5d01ee2b2178e71df578a109108655a97c24a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi6Yx5CRBK7hj4Ov3rIwAAomEIADucpGOjLbS/28FXZ7O98eG0\nPzhpKoea0dWDvvaIzP23hMRq6HUEglb7UnJBRPiJRYVpwtb96E3+dwtVp7GuZdkv\nWxaw/bK590gP29MOQpO7ByeR9mMpG06Ac5aUwDlz8XeLKKMCGOsH5uGi+Ba5p8Ox\nSkfwff9+n0b1zWOxLhMjuFewtcU/gbX1ZhH5IkQRk4TnK7Onnf8FAmON0aAvqT4g\nNI/daPXpbFYHwxYbBvusKGWdv32Q6JoKG2Ty1IhwPwJXaBRG15NMM5T62tsrUdBO\nJzJF2HiA0WEElTVPcmq/iNpqUuTn7ECaXCnCmj05rsIvCvvbFA7R2oo8zp7znkk=\n=HBLd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 186412c5a5f1f8bb24c286b8b4c202c1ce05a4eb\nparent 1df32309fe69d4e8113813a3e9049a7039650f44\nauthor Sabu Siyad <hello@ssiyad.com> 1659473017 +0530\ncommitter GitHub <noreply@github.com> 1659473017 +0000\n\nWarn if only columns XOR lines is set\n\nCo-authored-by: Christian Duerr <contact@christianduerr.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/76c5d01ee2b2178e71df578a109108655a97c24a",
+    "html_url": "https://github.com/alacritty/alacritty/commit/76c5d01ee2b2178e71df578a109108655a97c24a",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/76c5d01ee2b2178e71df578a109108655a97c24a/comments",
+    "author": {
+      "login": "ssiyad",
+      "id": 28098330,
+      "node_id": "MDQ6VXNlcjI4MDk4MzMw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28098330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ssiyad",
+      "html_url": "https://github.com/ssiyad",
+      "followers_url": "https://api.github.com/users/ssiyad/followers",
+      "following_url": "https://api.github.com/users/ssiyad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ssiyad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ssiyad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ssiyad/subscriptions",
+      "organizations_url": "https://api.github.com/users/ssiyad/orgs",
+      "repos_url": "https://api.github.com/users/ssiyad/repos",
+      "events_url": "https://api.github.com/users/ssiyad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ssiyad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1df32309fe69d4e8113813a3e9049a7039650f44",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/1df32309fe69d4e8113813a3e9049a7039650f44",
+        "html_url": "https://github.com/alacritty/alacritty/commit/1df32309fe69d4e8113813a3e9049a7039650f44"
+      }
+    ]
+  },
+  {
+    "sha": "1df32309fe69d4e8113813a3e9049a7039650f44",
+    "node_id": "C_kwDOAxkop9oAKDFkZjMyMzA5ZmU2OWQ0ZTgxMTM4MTNhM2U5MDQ5YTcwMzk2NTBmNDQ",
+    "commit": {
+      "author": {
+        "name": "Mikayla Maki",
+        "email": "mikayla.c.maki@gmail.com",
+        "date": "2022-07-29T06:31:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-29T06:31:31Z"
+      },
+      "message": "Make grid mutably accessible to libraries\n\nCo-authored-by: Mikayla Maki <mikayla.c.maki@icloud.com>",
+      "tree": {
+        "sha": "a19830114c3fea88054b4197f6d2e54df9a36a94",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/a19830114c3fea88054b4197f6d2e54df9a36a94"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/1df32309fe69d4e8113813a3e9049a7039650f44",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi437DCRBK7hj4Ov3rIwAAILAIAEjE+/EQAtcmpiw5Lp0Lz4F5\nQCAd43oNMJVtbWGmbtDtP/BRzgvkMr6GQzBMxbwitb3R8DZQ5XvODxqL1curP+Hg\nOrVz0UZ7A3T8eOYEyyZB1SVYLX4dWsmLsOesJe5w4lueXnAPY8EeZnoOgvi4TioK\nKi5NKZER8GX/YMY7OObc8HdytwzGImU0fcxqqQx0aaBfM6fu4NYbDlA9ENZZKZs7\nQzaGbnYIam3e1ZU714MpJLTxwTtygSlX1xomJYJnD6c29u6rGZsDAzOtdsiIeJFm\nBEuVMqsv/q1lyQrintp1eGzhC2pDAYpGkNZk8GR6znl46UotDXQh3AiEYfMFeLE=\n=BgUC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a19830114c3fea88054b4197f6d2e54df9a36a94\nparent f4304d5a308e5341eb0a944b77c80d4821a13dbb\nauthor Mikayla Maki <mikayla.c.maki@gmail.com> 1659076291 -0700\ncommitter GitHub <noreply@github.com> 1659076291 +0000\n\nMake grid mutably accessible to libraries\n\nCo-authored-by: Mikayla Maki <mikayla.c.maki@icloud.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/1df32309fe69d4e8113813a3e9049a7039650f44",
+    "html_url": "https://github.com/alacritty/alacritty/commit/1df32309fe69d4e8113813a3e9049a7039650f44",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/1df32309fe69d4e8113813a3e9049a7039650f44/comments",
+    "author": {
+      "login": "mikayla-maki",
+      "id": 2280405,
+      "node_id": "MDQ6VXNlcjIyODA0MDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2280405?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikayla-maki",
+      "html_url": "https://github.com/mikayla-maki",
+      "followers_url": "https://api.github.com/users/mikayla-maki/followers",
+      "following_url": "https://api.github.com/users/mikayla-maki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikayla-maki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikayla-maki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikayla-maki/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikayla-maki/orgs",
+      "repos_url": "https://api.github.com/users/mikayla-maki/repos",
+      "events_url": "https://api.github.com/users/mikayla-maki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikayla-maki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+        "html_url": "https://github.com/alacritty/alacritty/commit/f4304d5a308e5341eb0a944b77c80d4821a13dbb"
+      }
+    ]
+  },
+  {
+    "sha": "f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+    "node_id": "C_kwDOAxkop9oAKGY0MzA0ZDVhMzA4ZTUzNDFlYjBhOTQ0Yjc3YzgwZDQ4MjFhMTNkYmI",
+    "commit": {
+      "author": {
+        "name": "Peter DeLong",
+        "email": "petersdelong@gmail.com",
+        "date": "2022-07-26T09:15:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-26T09:15:40Z"
+      },
+      "message": "Fix visible regex match on tall viewports\n\nThe end of the search window is currently calculated using the viewport\r\nstart instead of the end.  The observed behavior is that all hinting\r\nstops suddenly after line 101.  This was introduced in #6139 when the\r\ncode was refactored into this file from display/content.rs.",
+      "tree": {
+        "sha": "0e89dfcb8a138b1a61ceb1cd16c9e858192978ce",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/0e89dfcb8a138b1a61ceb1cd16c9e858192978ce"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi37C8CRBK7hj4Ov3rIwAA1kwIADJQ4AWV3bSieqwB5uLx0cTO\niyXiixhR43K0XpbA2DdIUBvGhgvq0lnVe0+mxwDl2kRRsk7ZwV76kIkrQ+BFSKFT\nDG5q5c6Px7a+radXgX604KyPoXeibl0z/+91uHP7VkwA47zNSz5CMgw5gF59RoNx\ngGeggEKXgEhNMRooChX6A2+0dWvQ1O516sPlWOQx2tWUT4a19honKyrFPUUEq0W9\nUjioh6jdwS5d8LxvHg7r4o8p7rhI1Y0YRnHYGTcxN0ngg79r1BQBevGvx1IlF8UK\nWMaH44shRqB3h++eSI7GkJNk8M3duxohDqCxUtu1dIHe7LFaN1NvG1TjEmEWF9k=\n=IudW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0e89dfcb8a138b1a61ceb1cd16c9e858192978ce\nparent 766a3b5582fa8ee13506c0f23c9c145ff0012078\nauthor Peter DeLong <petersdelong@gmail.com> 1658826940 -0400\ncommitter GitHub <noreply@github.com> 1658826940 +0300\n\nFix visible regex match on tall viewports\n\nThe end of the search window is currently calculated using the viewport\r\nstart instead of the end.  The observed behavior is that all hinting\r\nstops suddenly after line 101.  This was introduced in #6139 when the\r\ncode was refactored into this file from display/content.rs."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+    "html_url": "https://github.com/alacritty/alacritty/commit/f4304d5a308e5341eb0a944b77c80d4821a13dbb",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/f4304d5a308e5341eb0a944b77c80d4821a13dbb/comments",
+    "author": {
+      "login": "pdelong",
+      "id": 401087,
+      "node_id": "MDQ6VXNlcjQwMTA4Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/401087?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pdelong",
+      "html_url": "https://github.com/pdelong",
+      "followers_url": "https://api.github.com/users/pdelong/followers",
+      "following_url": "https://api.github.com/users/pdelong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pdelong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pdelong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pdelong/subscriptions",
+      "organizations_url": "https://api.github.com/users/pdelong/orgs",
+      "repos_url": "https://api.github.com/users/pdelong/repos",
+      "events_url": "https://api.github.com/users/pdelong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pdelong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "766a3b5582fa8ee13506c0f23c9c145ff0012078",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/766a3b5582fa8ee13506c0f23c9c145ff0012078",
+        "html_url": "https://github.com/alacritty/alacritty/commit/766a3b5582fa8ee13506c0f23c9c145ff0012078"
+      }
+    ]
+  },
+  {
+    "sha": "766a3b5582fa8ee13506c0f23c9c145ff0012078",
+    "node_id": "C_kwDOAxkop9oAKDc2NmEzYjU1ODJmYThlZTEzNTA2YzBmMjNjOWMxNDVmZjAwMTIwNzg",
+    "commit": {
+      "author": {
+        "name": "Chris Copeland",
+        "email": "chris@chrisnc.net",
+        "date": "2022-07-25T03:04:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-25T03:04:27Z"
+      },
+      "message": "Fix clippy warnings",
+      "tree": {
+        "sha": "c632e397093532a3ad8c9d84a343631c7dff2a57",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/c632e397093532a3ad8c9d84a343631c7dff2a57"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/766a3b5582fa8ee13506c0f23c9c145ff0012078",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi3gg7CRBK7hj4Ov3rIwAAE/QIAHQA1bPP6C4TzCzPutNNTKlh\naZzW8iK6CDXI0f+J7d/ZGLQpD76cexYCCcnUaoKCTX2+oMph8BrdfNE4vmMQ7mw2\n9QlBkEaUGIcR7qJg9nk/hA82PNtN2ku1YyknO6LfcAT5pWAwzeAC3VpMp67+ejZa\nyaldLgAfc0ZHBzkPx67QLUHxx0ylU6+wps2FlEn6O52EjdJjFHFv3lHKt3hvAdJz\n80+Q5dJVnycd4cD+c3m/v5jz8K1kgSV8tNYNaiVEM/aNf4bTu33bcY64f8QZ3EdW\nomxzKTboa+Coj+RjIwcBI0zrsKHW5tCOPJIi6mTPOU+WHemKu1Phifh2+P2r4Zo=\n=VLR4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c632e397093532a3ad8c9d84a343631c7dff2a57\nparent b86667b2989dca71bd584227e5878c89f6888605\nauthor Chris Copeland <chris@chrisnc.net> 1658718267 -0700\ncommitter GitHub <noreply@github.com> 1658718267 +0000\n\nFix clippy warnings\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/766a3b5582fa8ee13506c0f23c9c145ff0012078",
+    "html_url": "https://github.com/alacritty/alacritty/commit/766a3b5582fa8ee13506c0f23c9c145ff0012078",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/766a3b5582fa8ee13506c0f23c9c145ff0012078/comments",
+    "author": {
+      "login": "chrisnc",
+      "id": 2592855,
+      "node_id": "MDQ6VXNlcjI1OTI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2592855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisnc",
+      "html_url": "https://github.com/chrisnc",
+      "followers_url": "https://api.github.com/users/chrisnc/followers",
+      "following_url": "https://api.github.com/users/chrisnc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisnc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisnc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisnc/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisnc/orgs",
+      "repos_url": "https://api.github.com/users/chrisnc/repos",
+      "events_url": "https://api.github.com/users/chrisnc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisnc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b86667b2989dca71bd584227e5878c89f6888605",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/b86667b2989dca71bd584227e5878c89f6888605",
+        "html_url": "https://github.com/alacritty/alacritty/commit/b86667b2989dca71bd584227e5878c89f6888605"
+      }
+    ]
+  },
+  {
+    "sha": "b86667b2989dca71bd584227e5878c89f6888605",
+    "node_id": "C_kwDOAxkop9oAKGI4NjY2N2IyOTg5ZGNhNzFiZDU4NDIyN2U1ODc4Yzg5ZjY4ODg2MDU",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-07-24T23:17:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-24T23:17:57Z"
+      },
+      "message": "Remove redundant dirty updates\n\nIn some cases dirty was set without any ui update leading\r\nto extra redraws, this commit resolves this.\r\n\r\nCo-authored-by: Greg Depoire--Ferrer <greg@gregdf.com>",
+      "tree": {
+        "sha": "cd1c826881bc02ff4f2fcbf6866d544834522104",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/cd1c826881bc02ff4f2fcbf6866d544834522104"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/b86667b2989dca71bd584227e5878c89f6888605",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi3dMlCRBK7hj4Ov3rIwAARqQIAF3PuYnkikQ0RaKxEw0heBBX\nn+qnUGZO8unitGneyzbAwxpwWjfPOMikeK+tsHFRwoH8a0PPe65TvD7tiSRR/im8\n2Ox0sbY5fCr+N13MUbDUiRkpMlmxu28MqowQ/9zY48ZIw4tnOxtPnRcoJNm3P1eC\nWXy6IihjETHZkHbvR3ClW7r+HELxcQvwKCZdV3GNtHEiTu1hU0kX+2EnFkH3GYps\nufgiYmRwWNR6ZjFUaSfqQla6vDWRPPnlgCwJ04aOvoqUUnlbEzbpKeZTVsqQiTzD\ne0mwBLqWxOrSg8ZUnrdlOAqV1K35FDgkZbrua0mU4xD4hZNO0eKYq+1ETmqluCo=\n=4mN6\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cd1c826881bc02ff4f2fcbf6866d544834522104\nparent 4fce2b16f572719bc8036eed0ad06ab41e52f95a\nauthor Kirill Chibisov <contact@kchibisov.com> 1658704677 +0300\ncommitter GitHub <noreply@github.com> 1658704677 +0300\n\nRemove redundant dirty updates\n\nIn some cases dirty was set without any ui update leading\r\nto extra redraws, this commit resolves this.\r\n\r\nCo-authored-by: Greg Depoire--Ferrer <greg@gregdf.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/b86667b2989dca71bd584227e5878c89f6888605",
+    "html_url": "https://github.com/alacritty/alacritty/commit/b86667b2989dca71bd584227e5878c89f6888605",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/b86667b2989dca71bd584227e5878c89f6888605/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+        "html_url": "https://github.com/alacritty/alacritty/commit/4fce2b16f572719bc8036eed0ad06ab41e52f95a"
+      }
+    ]
+  },
+  {
+    "sha": "4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+    "node_id": "C_kwDOAxkop9oAKDRmY2UyYjE2ZjU3MjcxOWJjODAzNmVlZDBhZDA2YWI0MWU1MmY5NWE",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-07-24T10:05:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-24T10:05:46Z"
+      },
+      "message": "Fix inverted condition for cell's extra clearing\n\nFixes #6215.",
+      "tree": {
+        "sha": "ffdc51263fbf4b27dd8b07a6654b6ba2eefd404c",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/ffdc51263fbf4b27dd8b07a6654b6ba2eefd404c"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi3Rl6CRBK7hj4Ov3rIwAABqwIABsuRLuYv50No3wIltS7P701\nneggz8+sLI8oFn4rVhyk5codni3NcF2w/xJqGg5xjuz0MS+CiLKvIWrN3z+MDT44\nvfLnznqDYAgBL42BZwC2Pn4EuR6OAFzggi0O7XZbzYPPrgaTObJ4xn0I0HWPs7wy\nOoXBwyEvXcNEfnHGKUGhM0mLUVmFsfvLPgDDBEom9WaEPm5QjvAp8fG2qKV9X5+R\n7kcdU2ToQUnkyvBW7Vqy02ALRqRgMKTYVETdDslsSd9MbJGV79MykviTsXb6CYyY\nnb7sLByfSUNgejO0IcTsyIECiAtsyeTQ2rnDoL3s25x7saeD5btlpdXHbXiRt6Y=\n=CNbV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ffdc51263fbf4b27dd8b07a6654b6ba2eefd404c\nparent c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f\nauthor Kirill Chibisov <contact@kchibisov.com> 1658657146 +0300\ncommitter GitHub <noreply@github.com> 1658657146 +0300\n\nFix inverted condition for cell's extra clearing\n\nFixes #6215."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+    "html_url": "https://github.com/alacritty/alacritty/commit/4fce2b16f572719bc8036eed0ad06ab41e52f95a",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/4fce2b16f572719bc8036eed0ad06ab41e52f95a/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+        "html_url": "https://github.com/alacritty/alacritty/commit/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f"
+      }
+    ]
+  },
+  {
+    "sha": "c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+    "node_id": "C_kwDOAxkop9oAKGMzZjNiZDM2NjY5ZmM2Y2Y2YzU5OThiZmU1NGNiOTBhZTU4ZGRlOGY",
+    "commit": {
+      "author": {
+        "name": "Chris Copeland",
+        "email": "chris@chrisnc.net",
+        "date": "2022-07-24T02:51:16Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-24T02:51:16Z"
+      },
+      "message": "Register Alacritty shells as tty sessions on macOS\n\nUnless the `shell` config is specified, launch the user's shell with:\r\n\r\n```sh\r\nlogin -flp $USER /bin/sh -c \"exec -a -shell /path/to/shell\"\r\n```\r\n\r\nOn macOS, just running a shell prefixed by `-` is not sufficient to be\r\nregistered as a login session for things like `w` and `logname`.\r\nHowever, using the `login` command changes the directory to `$HOME`\r\nbefore running the program by default, which is not desired. The `-l`\r\nflag disables this behavior, but also skips prepending `-` to the\r\nexecuted program, so shells will not run as login shells. Instead we\r\njust do this part ourselves with `exec -a`. The result is login shells\r\nthat run in the intended directory and are registered as tty sessions.\r\n\r\nFixes #3420.",
+      "tree": {
+        "sha": "821c44df359b80a48ed7e59034268bbba58fa5ab",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/821c44df359b80a48ed7e59034268bbba58fa5ab"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi3LOkCRBK7hj4Ov3rIwAA5tMIAH0EPSqA92TkZY2VpL5iyUYw\nlXs5V1rwmTYO0msSDImW53ct+l1b9z7L8dHW3BCnBZiXYqMJWFRgZHQRzVgFqF1b\n7UXJflCzwUQcRhuTDF28p9pW69TB/sfQdmZG1QGQ09yUly+iZMwH+h6lr4DIMMx/\npT+K5D6oAl+pCy3jWuHiIxzZyp3IoQU+ZxSbFvjoKcevysabFRsm16SlkYA9e+81\nBZdcovm4d4Q1+pJ0G4VJz1qGMwqZx4YxqdStT1mYc0hdz5hbGfNDNdv9QyXuDRpA\n+9cA73IKrVT5Li37mITZdrqzXUIxJ2FyuhG38ntWQbUSUCqTV96Ew0V/TUyY2Qg=\n=yOUq\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 821c44df359b80a48ed7e59034268bbba58fa5ab\nparent ed4614d0bd2a828a9d89347ad675d4564a3af754\nauthor Chris Copeland <chris@chrisnc.net> 1658631076 -0700\ncommitter GitHub <noreply@github.com> 1658631076 +0000\n\nRegister Alacritty shells as tty sessions on macOS\n\nUnless the `shell` config is specified, launch the user's shell with:\r\n\r\n```sh\r\nlogin -flp $USER /bin/sh -c \"exec -a -shell /path/to/shell\"\r\n```\r\n\r\nOn macOS, just running a shell prefixed by `-` is not sufficient to be\r\nregistered as a login session for things like `w` and `logname`.\r\nHowever, using the `login` command changes the directory to `$HOME`\r\nbefore running the program by default, which is not desired. The `-l`\r\nflag disables this behavior, but also skips prepending `-` to the\r\nexecuted program, so shells will not run as login shells. Instead we\r\njust do this part ourselves with `exec -a`. The result is login shells\r\nthat run in the intended directory and are registered as tty sessions.\r\n\r\nFixes #3420."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+    "html_url": "https://github.com/alacritty/alacritty/commit/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/c3f3bd36669fc6cf6c5998bfe54cb90ae58dde8f/comments",
+    "author": {
+      "login": "chrisnc",
+      "id": 2592855,
+      "node_id": "MDQ6VXNlcjI1OTI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2592855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisnc",
+      "html_url": "https://github.com/chrisnc",
+      "followers_url": "https://api.github.com/users/chrisnc/followers",
+      "following_url": "https://api.github.com/users/chrisnc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisnc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisnc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisnc/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisnc/orgs",
+      "repos_url": "https://api.github.com/users/chrisnc/repos",
+      "events_url": "https://api.github.com/users/chrisnc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisnc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed4614d0bd2a828a9d89347ad675d4564a3af754",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/ed4614d0bd2a828a9d89347ad675d4564a3af754",
+        "html_url": "https://github.com/alacritty/alacritty/commit/ed4614d0bd2a828a9d89347ad675d4564a3af754"
+      }
+    ]
+  },
+  {
+    "sha": "ed4614d0bd2a828a9d89347ad675d4564a3af754",
+    "node_id": "C_kwDOAxkop9oAKGVkNDYxNGQwYmQyYTgyOGE5ZDg5MzQ3YWQ2NzVkNDU2NGEzYWY3NTQ",
+    "commit": {
+      "author": {
+        "name": "Mikayla Maki",
+        "email": "mikayla.c.maki@gmail.com",
+        "date": "2022-07-20T22:30:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-20T22:30:55Z"
+      },
+      "message": "Remove panics from UNIX PTY initialization\n\nCo-authored-by: Mikayla Maki <mikayla.c.maki@icloud.com>",
+      "tree": {
+        "sha": "1e07e21bf7d4e6039e161ef1263f41853f2870b9",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/1e07e21bf7d4e6039e161ef1263f41853f2870b9"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/ed4614d0bd2a828a9d89347ad675d4564a3af754",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi2IIfCRBK7hj4Ov3rIwAAmokIABHupcyzy8wpSiPBR+jnf7dw\no8FP+cf2UWPANu53GaUjzLBNcIwdyPSzbSDoeyhVo8CveZImp6i4ovfo+uMXRerc\n9fEO6SBwcNjMO55/UtNoOtMJ0nIIc0nZn2XgoeiymaovI1Kl0SikK4JbqHgeTRw7\nckdEvDFnqlIRUfk8G9MajsniaDlajR/LRxbBV/caEreJmqqW8wzFLPaH5elGySRf\nYYDCIaFcPFUKm7chR4i6A/OVz8rf/e0gksq+n2VK3SwYaGgNhF0ssMG/ZSIoUYL1\n+TIJaqDceSrPXiM6ZNB8Wv9WQ4zfneDHBwyxee9/f1q5EGOX8SUnzvyxiRsQ6Mw=\n=e7fP\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1e07e21bf7d4e6039e161ef1263f41853f2870b9\nparent 48454c004700e359c3c496871643913fb20de84f\nauthor Mikayla Maki <mikayla.c.maki@gmail.com> 1658356255 -0700\ncommitter GitHub <noreply@github.com> 1658356255 +0000\n\nRemove panics from UNIX PTY initialization\n\nCo-authored-by: Mikayla Maki <mikayla.c.maki@icloud.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/ed4614d0bd2a828a9d89347ad675d4564a3af754",
+    "html_url": "https://github.com/alacritty/alacritty/commit/ed4614d0bd2a828a9d89347ad675d4564a3af754",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/ed4614d0bd2a828a9d89347ad675d4564a3af754/comments",
+    "author": {
+      "login": "mikayla-maki",
+      "id": 2280405,
+      "node_id": "MDQ6VXNlcjIyODA0MDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2280405?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikayla-maki",
+      "html_url": "https://github.com/mikayla-maki",
+      "followers_url": "https://api.github.com/users/mikayla-maki/followers",
+      "following_url": "https://api.github.com/users/mikayla-maki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikayla-maki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikayla-maki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikayla-maki/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikayla-maki/orgs",
+      "repos_url": "https://api.github.com/users/mikayla-maki/repos",
+      "events_url": "https://api.github.com/users/mikayla-maki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikayla-maki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "48454c004700e359c3c496871643913fb20de84f",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/48454c004700e359c3c496871643913fb20de84f",
+        "html_url": "https://github.com/alacritty/alacritty/commit/48454c004700e359c3c496871643913fb20de84f"
+      }
+    ]
+  },
+  {
+    "sha": "48454c004700e359c3c496871643913fb20de84f",
+    "node_id": "C_kwDOAxkop9oAKDQ4NDU0YzAwNDcwMGUzNTljM2M0OTY4NzE2NDM5MTNmYjIwZGU4NGY",
+    "commit": {
+      "author": {
+        "name": "Chris Copeland",
+        "email": "chris@chrisnc.net",
+        "date": "2022-07-20T08:24:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-20T08:24:27Z"
+      },
+      "message": "Replace `map().unwrap_or()` with `map_or()`\n\nUse a `map_or` instead of a `map().unwrap_or()` chain.",
+      "tree": {
+        "sha": "754d68e806486a02ac8ce088e87e7c7105832e4a",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/754d68e806486a02ac8ce088e87e7c7105832e4a"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/48454c004700e359c3c496871643913fb20de84f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi17u7CRBK7hj4Ov3rIwAApJIIAI7LIvl7H78vHkNMIQWpuHjU\nB9yvj4dmtEoHFofCfGQtPgw6Hfc/O4amZoI/YJy0Sqw8ViFsceqI2k66v1T2Usyf\nBrMk2MhRn8F3VYifCKCSBk7vuOLs+xwC9WvtJVMOEDiWcmlkh7ILiIpANmkzLgrZ\n6/XhdlhDhMoIzhvR8ng097pO3RD4M3JG69iluPgYHF+AoFlrEfkqrsHta5cd26Fv\nJO8yY0W+CRZzk13Ar8I1lvKrcPKVh4gIaohgitJCILCmrTXPpP+jyC1J8BbOtxLl\n6fHxdBGe7SNmITxwyhJeRTOYHPgAuGy9SvfUyYx5hi2Ku+hIkMfxDQsyBUxCjX4=\n=B95s\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 754d68e806486a02ac8ce088e87e7c7105832e4a\nparent 2a676dfad837d1784ed0911d314bc263804ef4ef\nauthor Chris Copeland <chris@chrisnc.net> 1658305467 -0700\ncommitter GitHub <noreply@github.com> 1658305467 +0300\n\nReplace `map().unwrap_or()` with `map_or()`\n\nUse a `map_or` instead of a `map().unwrap_or()` chain."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/48454c004700e359c3c496871643913fb20de84f",
+    "html_url": "https://github.com/alacritty/alacritty/commit/48454c004700e359c3c496871643913fb20de84f",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/48454c004700e359c3c496871643913fb20de84f/comments",
+    "author": {
+      "login": "chrisnc",
+      "id": 2592855,
+      "node_id": "MDQ6VXNlcjI1OTI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2592855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisnc",
+      "html_url": "https://github.com/chrisnc",
+      "followers_url": "https://api.github.com/users/chrisnc/followers",
+      "following_url": "https://api.github.com/users/chrisnc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisnc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisnc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisnc/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisnc/orgs",
+      "repos_url": "https://api.github.com/users/chrisnc/repos",
+      "events_url": "https://api.github.com/users/chrisnc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisnc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2a676dfad837d1784ed0911d314bc263804ef4ef",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/2a676dfad837d1784ed0911d314bc263804ef4ef",
+        "html_url": "https://github.com/alacritty/alacritty/commit/2a676dfad837d1784ed0911d314bc263804ef4ef"
+      }
+    ]
+  },
+  {
+    "sha": "2a676dfad837d1784ed0911d314bc263804ef4ef",
+    "node_id": "C_kwDOAxkop9oAKDJhNjc2ZGZhZDgzN2QxNzg0ZWQwOTExZDMxNGJjMjYzODA0ZWY0ZWY",
+    "commit": {
+      "author": {
+        "name": "Chris Copeland",
+        "email": "chris@chrisnc.net",
+        "date": "2022-07-15T21:56:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-15T21:56:26Z"
+      },
+      "message": "Fix thin strokes on macOS\n\nRemove the `font.use_thin_strokes` config, which only did anything on\r\nmacOS and only prior to Big Sur. Instead, we will enable or disable\r\n\"font smoothing\" on macOS based on the `AppleFontSmoothing` user\r\ndefault.\r\n\r\nThese changes let users get the \"thin strokes\" behavior by setting\r\n`AppleFontSmoothing` to 0 with:\r\n\r\n```sh\r\n$ defaults write -g AppleFontSmoothing -int 0\r\n```\r\n\r\n(Or replace `-g` with `org.alacritty` to apply this setting only to\r\nAlacritty.app, rather than the whole system.)\r\n\r\nAdd a `removed` config attribute to show helpful warnings to users\r\nwho are using config options that don't do anything anymore, and apply\r\nthis attribute to `font.use_thin_strokes`.\r\n\r\nBump `crossfont` to 0.5.0 to pick up the new font smoothing behavior.\r\nThis release also includes a fix for a crash when trying to load a\r\ndisabled font.\r\n\r\nFixes #4616.\r\nFixes #6108.",
+      "tree": {
+        "sha": "f5ab5069dd71fc6c73c8d3f4dd5d409b5b37523a",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/f5ab5069dd71fc6c73c8d3f4dd5d409b5b37523a"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/2a676dfad837d1784ed0911d314bc263804ef4ef",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJi0eKKCRBK7hj4Ov3rIwAAm4oIAKGWdb92GqeEjmiL5jGV101F\nP/vfa+z5i+VG/yfaWKjto3yDRGhg5fFKESZyUcjaoAZaLeUJc8DIIFQjUqA+PbWc\nAK+f7arvFx/LoIfHx/YssH7vS4bGKB313cF4YzC2pkEeybqmK/s5JhjQKvb1L/ZA\nqxzZjveLUzCrBlndw6l2fMjCszjHFjjc6Tz7+PCmRdbEbEa8lFjODtLS5dIJl0ab\nCCpsD53CKvVDTubNuxuPfVweHwJQd+6JFb99BxE4m2numCO7WOVg7vENG5Tu7pWH\nN3o0/P9vGQN1wtPjce2a3MjuRid6eVKl05oI8mtqTEjlg/hntZW7L/LNU0NkzS0=\n=kCVG\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f5ab5069dd71fc6c73c8d3f4dd5d409b5b37523a\nparent 40bbdce6de8775b7bbc3f9a5731337d1dd05d195\nauthor Chris Copeland <chris@chrisnc.net> 1657922186 -0700\ncommitter GitHub <noreply@github.com> 1657922186 +0000\n\nFix thin strokes on macOS\n\nRemove the `font.use_thin_strokes` config, which only did anything on\r\nmacOS and only prior to Big Sur. Instead, we will enable or disable\r\n\"font smoothing\" on macOS based on the `AppleFontSmoothing` user\r\ndefault.\r\n\r\nThese changes let users get the \"thin strokes\" behavior by setting\r\n`AppleFontSmoothing` to 0 with:\r\n\r\n```sh\r\n$ defaults write -g AppleFontSmoothing -int 0\r\n```\r\n\r\n(Or replace `-g` with `org.alacritty` to apply this setting only to\r\nAlacritty.app, rather than the whole system.)\r\n\r\nAdd a `removed` config attribute to show helpful warnings to users\r\nwho are using config options that don't do anything anymore, and apply\r\nthis attribute to `font.use_thin_strokes`.\r\n\r\nBump `crossfont` to 0.5.0 to pick up the new font smoothing behavior.\r\nThis release also includes a fix for a crash when trying to load a\r\ndisabled font.\r\n\r\nFixes #4616.\r\nFixes #6108."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/2a676dfad837d1784ed0911d314bc263804ef4ef",
+    "html_url": "https://github.com/alacritty/alacritty/commit/2a676dfad837d1784ed0911d314bc263804ef4ef",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/2a676dfad837d1784ed0911d314bc263804ef4ef/comments",
+    "author": {
+      "login": "chrisnc",
+      "id": 2592855,
+      "node_id": "MDQ6VXNlcjI1OTI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2592855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisnc",
+      "html_url": "https://github.com/chrisnc",
+      "followers_url": "https://api.github.com/users/chrisnc/followers",
+      "following_url": "https://api.github.com/users/chrisnc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisnc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisnc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisnc/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisnc/orgs",
+      "repos_url": "https://api.github.com/users/chrisnc/repos",
+      "events_url": "https://api.github.com/users/chrisnc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisnc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+        "html_url": "https://github.com/alacritty/alacritty/commit/40bbdce6de8775b7bbc3f9a5731337d1dd05d195"
+      }
+    ]
+  },
+  {
+    "sha": "40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+    "node_id": "C_kwDOAxkop9oAKDQwYmJkY2U2ZGU4Nzc1YjdiYmMzZjlhNTczMTMzN2QxZGQwNWQxOTU",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-07-11T19:54:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-11T19:54:28Z"
+      },
+      "message": "Fix hyperlinks not being keyboard actionable\n\nThis fixes a typo in 694a52b which was filtering all hyperlinks, except\r\nonly duplicated ones when opening them with keyboard.\r\n\r\nCo-authored-by: Christian Duerr <contact@christianduerr.com>",
+      "tree": {
+        "sha": "bd8ed857ebd4a68744b6ca3e3557fc5fa179d281",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/bd8ed857ebd4a68744b6ca3e3557fc5fa179d281"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJizH/0CRBK7hj4Ov3rIwAAuHYIAExnXlemgUfkwlILZtO3dQ5G\nbX3ZaxUPP5Ml7JSVMeewmCWEBmdXUlz5lHBPTdJGXDjjq/3reyh21ssgQtwjpLEW\nwGpm0++PVUbyImGrUzZZusaZ0m8nlFsH1I7k5Ae+bgb2VHqSgRq/uk3OaIOXWH5/\njhinfWQcDYrUiz1QLvJYBFYsHfqjlaUWKUjaD4C3ILshMKFMG/DTrYnufRZ+Czc6\n4X0CQ+xeW0hPCUsE/drLWxt0fTpLbx8CvDAjtZTIrPHMzTQ4GE6zz41UiZ7K9EK7\nczseybXpH0RufwM1SEnQC+i7BH05q30HkMpMEgYrup0hRnQKQYkemfXKEIaRlGc=\n=X8S3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree bd8ed857ebd4a68744b6ca3e3557fc5fa179d281\nparent e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016\nauthor Kirill Chibisov <contact@kchibisov.com> 1657569268 +0300\ncommitter GitHub <noreply@github.com> 1657569268 +0300\n\nFix hyperlinks not being keyboard actionable\n\nThis fixes a typo in 694a52b which was filtering all hyperlinks, except\r\nonly duplicated ones when opening them with keyboard.\r\n\r\nCo-authored-by: Christian Duerr <contact@christianduerr.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+    "html_url": "https://github.com/alacritty/alacritty/commit/40bbdce6de8775b7bbc3f9a5731337d1dd05d195",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/40bbdce6de8775b7bbc3f9a5731337d1dd05d195/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+        "html_url": "https://github.com/alacritty/alacritty/commit/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016"
+      }
+    ]
+  },
+  {
+    "sha": "e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+    "node_id": "C_kwDOAxkop9oAKGUwOWZmMGI0YjA2NTRmZDZkYmNmOGMwYmRjNzNmZGI5YWU3ZDgwMTY",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-07-10T20:55:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-10T20:55:57Z"
+      },
+      "message": "Use org.alacritty instead of io.alacritty\n\nThe common naming is reverse DNS, and given that alacritty is using\r\nalacritty.org it makes more sense to use org.alacritty instead of\r\nold io.alacritty.",
+      "tree": {
+        "sha": "b066ef6dcbc087408567cc8bcc65aa03a9072602",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/b066ef6dcbc087408567cc8bcc65aa03a9072602"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiyzzdCRBK7hj4Ov3rIwAAtpgIAG7UOjs+ZJuRYlE8EQ/PFddP\nZQzZY+oimPnV+0J+3tpO0nO5VlnybhBqglV3nOCqn1OS/mXPyACEfRldigI99qKx\n+4y6irZovWmoNzr9aU8U6hzGn6HnOPl1LnRnEpSlghNmjVcAnBi/O5Ge9enz/uP+\nCeI26AaYzSdQ3WFjtTghZmfNa/qkDK5QKVRzxJmTc2E/fg0xBy3zq75LE0KSGbko\njB3kdX/eDmhTrSxA+V5HiMSuosQZMeSejrBPHHYu5OFIVxNK1IhQoyGmm9NEZSKM\ncUSqDdHBP9nqOJA7MQWXxjcWVgaUkumEdjkocuM3H4GK0ohxtw5XMU4NC3ng9R4=\n=fvpR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b066ef6dcbc087408567cc8bcc65aa03a9072602\nparent 694a52bcffeffdc9e163818c3b2ac5c39e26f1ef\nauthor Kirill Chibisov <contact@kchibisov.com> 1657486557 +0300\ncommitter GitHub <noreply@github.com> 1657486557 +0300\n\nUse org.alacritty instead of io.alacritty\n\nThe common naming is reverse DNS, and given that alacritty is using\r\nalacritty.org it makes more sense to use org.alacritty instead of\r\nold io.alacritty."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+    "html_url": "https://github.com/alacritty/alacritty/commit/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/e09ff0b4b0654fd6dbcf8c0bdc73fdb9ae7d8016/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+        "html_url": "https://github.com/alacritty/alacritty/commit/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef"
+      }
+    ]
+  },
+  {
+    "sha": "694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+    "node_id": "C_kwDOAxkop9oAKDY5NGE1MmJjZmZlZmZkYzllMTYzODE4YzNiMmFjNWMzOWUyNmYxZWY",
+    "commit": {
+      "author": {
+        "name": "Kirill Chibisov",
+        "email": "contact@kchibisov.com",
+        "date": "2022-07-10T17:11:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-10T17:11:28Z"
+      },
+      "message": "Add support for hyperlink escape sequence\n\nThis commit adds support for hyperlink escape sequence\r\n`OSC 8 ; params ; URI ST`. The configuration option responsible for\r\nthose is `hints.enabled.hyperlinks`.\r\n\r\nFixes #922.",
+      "tree": {
+        "sha": "a774babc1869b4c700d7df1478dbbfe5b2c3bcda",
+        "url": "https://api.github.com/repos/alacritty/alacritty/git/trees/a774babc1869b4c700d7df1478dbbfe5b2c3bcda"
+      },
+      "url": "https://api.github.com/repos/alacritty/alacritty/git/commits/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiywhACRBK7hj4Ov3rIwAAuCkIAD+yd++muj1ZdvbILAVRGJTZ\nHB+XIDNz+G4gU29wFj+CMGIngsmwbhzCA87CId409ipTrbtnA0yQtwxqJ0gUV7gI\nsbgcn1XFNisMJPXyL1TQAwaVWq7xFIk/oWsb9B8M+Jg80+bdNguMut/MniSOJXbG\nUxjgtEzvHImI0kAeaFa/ZG9D3Y+r6U0GfMXvJI1ROyod5bKXgSzQjhHHhbxtSB3P\nv1xonDd1Q5NP1/BJLSpb5pr8G/mmhBsIabU77t0GifZTe0hZebn+wc98YHFBE1Dh\nZ7mtyaBM4CvO1nQVOjTJ9ZQN/lvg4o0w8BvXZvkKLFM8/bDDsmX6fUZspICgrS8=\n=VJeD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a774babc1869b4c700d7df1478dbbfe5b2c3bcda\nparent 8451b75689b44f11ec1707af7e26d915772c3972\nauthor Kirill Chibisov <contact@kchibisov.com> 1657473088 +0300\ncommitter GitHub <noreply@github.com> 1657473088 +0300\n\nAdd support for hyperlink escape sequence\n\nThis commit adds support for hyperlink escape sequence\r\n`OSC 8 ; params ; URI ST`. The configuration option responsible for\r\nthose is `hints.enabled.hyperlinks`.\r\n\r\nFixes #922."
+      }
+    },
+    "url": "https://api.github.com/repos/alacritty/alacritty/commits/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+    "html_url": "https://github.com/alacritty/alacritty/commit/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef",
+    "comments_url": "https://api.github.com/repos/alacritty/alacritty/commits/694a52bcffeffdc9e163818c3b2ac5c39e26f1ef/comments",
+    "author": {
+      "login": "kchibisov",
+      "id": 27620401,
+      "node_id": "MDQ6VXNlcjI3NjIwNDAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27620401?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kchibisov",
+      "html_url": "https://github.com/kchibisov",
+      "followers_url": "https://api.github.com/users/kchibisov/followers",
+      "following_url": "https://api.github.com/users/kchibisov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kchibisov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kchibisov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kchibisov/subscriptions",
+      "organizations_url": "https://api.github.com/users/kchibisov/orgs",
+      "repos_url": "https://api.github.com/users/kchibisov/repos",
+      "events_url": "https://api.github.com/users/kchibisov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kchibisov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8451b75689b44f11ec1707af7e26d915772c3972",
+        "url": "https://api.github.com/repos/alacritty/alacritty/commits/8451b75689b44f11ec1707af7e26d915772c3972",
+        "html_url": "https://github.com/alacritty/alacritty/commit/8451b75689b44f11ec1707af7e26d915772c3972"
+      }
+    ]
+  }
+]
